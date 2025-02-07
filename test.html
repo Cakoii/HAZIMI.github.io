@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightpink">
+   
+        <form action="https://dev.fare4z.com" method="GET" enctype="multiport/form-data" name="borang">
+        
+        <p>
+        <label for="name">Full Name:</label>
+        <input type="text" id="nama" name="nama" placeholder="Enter your name">
+        </p>
+        
+        <p>
+            <label for="Phone number">Number Phone:</label>
+            <input type="number phone" name="Number" placeholder="Number Phone">
+            </p>
+        
+        <p>
+        <label for="email">Email:</label>
+        <input type="email" name="Email" placeholder="EmailAddress">
+        </p>
+
+
+        <p>
+        <label for="position">Position Applied For:</label>
+        <select id="position" name="position" required>
+            <option value="">Select Position</option>
+            <option value="executive">Executive</option>
+            <option value="non-executive">Non-Executive</option>
+        </select>
+        </p>
+
+
+        <p>
+        <label for="startDate">Available Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required>
+        </p>
+
+        <p>
+        <label for="resume">Resume Upload:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+        </p>
+
+        <p>
+        <label for="coverLetter">Cover Letter:</label><br>
+        <textarea id="coverLetter" name="coverLetter" rows="4" required></textarea>
+        </p>
+
+        <p>
+        <label>Employment Type Preferences:</label>
+        <div class="radio-group">
+            <label><input type="radio" name="employmentType" value="full-time" required> Full-Time</label>
+            <label><input type="radio" name="employmentType" value="part-time" required> Part-Time</label>
+            <label><input type="radio" name="employmentType" value="internship" required> Internship</label>
+        </div>
+        </p>
+    
+        <p>
+        <label>Skills:</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="skills" value="html"> HTML</label>
+            <label><input type="checkbox" name="skills" value="css"> CSS</label>
+            <label><input type="checkbox" name="skills" value="javascript"> JavaScript</label>
+            <label><input type="checkbox" name="skills" value="python"> Python</label>
+        </div>
+        </p>
+        
+        
+        
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+        
+        
+        </form>
+</body>
+</html>
